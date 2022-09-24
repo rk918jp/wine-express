@@ -16,6 +16,7 @@ export class User extends BaseEntity {
 
   @Column()
   public description: string = ''
+
 }
 
 export default User;
