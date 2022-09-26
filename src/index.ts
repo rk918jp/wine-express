@@ -1,5 +1,5 @@
 import * as express from 'express'
-import { User } from './entities/User'
+import { User } from './entities/Wine'
 import { getConnectionOptions, createConnection, BaseEntity } from 'typeorm'
 
 let app = async () => {
